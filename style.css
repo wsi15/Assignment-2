@@ -1,0 +1,581 @@
+/* Font Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+/* Font Styles */
+
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*------------ Header Styles-------------- */
+
+header {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.header-div {
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 82%;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    border-radius: 15px;
+
+
+}
+
+.div-text {
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.div-text-title {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0;
+
+}
+
+.div-text-button {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: red;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 35%;
+    transition: width .5s;
+}
+
+.div-text-button:hover {
+    width: 40%;
+}
+
+.div-img img {
+    height: 500px;
+}
+
+/*------------ Header Styles------------ */
+
+
+/*------------ Main Styles--------------- */
+
+main {
+    margin-bottom: 100px;
+}
+
+.main-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.left-box {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+
+}
+
+.left-box a {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    width: 200px;
+    text-align: center;
+    padding: 15px 25px;
+    border-radius: 10px;
+
+
+}
+
+.right-boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+#special {
+    background-color: red;
+}
+
+.banner img {
+    width: 250px;
+}
+
+.box {
+    border: 1px solid gray;
+    border-radius: 11px;
+    width: 251px;
+}
+
+.box-info {
+    padding: 20px;
+}
+
+.box-info h3 {
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.box-info a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    border: 1px solid black;
+    padding: 4px 10px;
+    border-radius: 7px;
+
+}
+
+.timer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.timer-info {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#special {
+    background-color: red;
+}
+
+
+
+
+.upcoming-match:hover {
+    background-color: red;
+
+}
+
+.matches {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.flag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.match-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    border: 1px solid gray;
+    border-radius: 11px;
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+
+}
+
+.match-info {
+    text-align: center;
+}
+
+
+
+/* ---------Main Styles----------- */
+
+
+/* --------Footer---------- */
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.footer-div {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+
+.footer-header {
+    color: white;
+    text-align: center;
+    font-size: 17px;
+
+}
+
+.footer-details {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    color: rgb(163, 163, 163);
+
+}
+
+.social-link {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.fa-brands {
+    font-size: 20px;
+    color: white;
+}
+
+
+/*----------- Footer ----------*/
+
+@media only screen and (max-width:688px) {
+
+    /*------------ Header Styles-------------- */
+
+
+    header {
+        margin-bottom: 50px;
+    }
+
+    .header-div {
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 700px;
+        border-radius: 15px;
+
+
+    }
+
+    .div-text {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+
+    }
+
+    .div-text-title {
+        font-size: 40px;
+
+    }
+
+    .div-text-button {
+        font-size: 15px;
+        padding: 10px;
+
+    }
+
+    .div-img img {
+        height: 370px;
+        margin-left: 60px;
+    }
+
+    /*------------ Header Styles------------ */
+
+
+    /*------------ Main Styles--------------- */
+
+    main {
+        margin-bottom: 50px;
+    }
+
+    .main-div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .left-box {
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        gap: 18px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 7px;
+
+    }
+
+    .left-box a {
+        border: 2px solid gray;
+        text-decoration: none;
+        background-color: white;
+        color: black;
+        font-size: 15px;
+        font-weight: bold;
+        width: 200px;
+        text-align: center;
+        padding: 15px 25px;
+        border-radius: 10px;
+
+
+    }
+
+    .right-boxes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* display: grid;
+    grid-template-columns: 1fr; */
+        gap: 20px;
+    }
+
+
+    .banner img {
+        width: 600px;
+    }
+
+    .box {
+        border: 1px solid gray;
+        border-radius: 11px;
+        width: 600px;
+    }
+
+
+
+    .matches {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .flag {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .flag img {
+        width: 200px;
+
+    }
+
+    .match-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 500px;
+        height: 300px;
+        padding: 20px;
+
+    }
+
+
+    /* ---------Main Styles----------- */
+
+    /* --------Footer---------- */
+
+    footer {
+        height: 500px;
+    }
+
+
+
+    .footer-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        color: rgb(163, 163, 163);
+
+    }
+
+    /*----------- Footer ----------*/
+
+}
+
+
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+
+    /*------------ Header Styles-------------- */
+
+    header {
+        margin-bottom: 50px;
+    }
+
+    .header-div {
+        width: 100%;
+
+
+    }
+
+
+
+    .div-text-button {
+        font-size: 15px;
+
+    }
+
+    .div-img img {
+        height: 500px;
+    }
+
+    /*------------ Header Styles------------ */
+
+
+    /*------------ Main Styles--------------- */
+
+    main {
+        margin-bottom: 50px;
+    }
+
+    .main-div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .left-box {
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: row;
+        gap: 18px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 7px;
+
+    }
+
+    .left-box a {
+        border: 1px solid gray;
+        background-color: white;
+        font-size: 20px;
+        ;
+        width: 250px;
+
+
+
+    }
+
+    .right-boxes {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin: 0 auto;
+    }
+
+
+    .banner img {
+        width: 450px;
+    }
+
+    .box {
+        border: 1px solid gray;
+        border-radius: 15px;
+        width: 450px;
+    }
+
+
+    .matches {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .flag {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .flag img {
+        width: 150px;
+    }
+
+    .match-box {
+        margin: 0 auto;
+        width: 450px;
+        height: 250px;
+        padding: 20px;
+
+    }
+
+    .match-info {
+        text-align: center;
+    }
+
+
+
+    /* ---------Main Styles----------- */
+
+
+    /* --------Footer---------- */
+
+    footer {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 350px;
+    }
+
+
+    .footer-details {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+        color: rgb(163, 163, 163);
+
+    }
+
+
+    /*----------- Footer ----------*/
+
+}
